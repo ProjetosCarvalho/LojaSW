@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+    <title>GB</title>
+</head>
+<body>
+  <header>
+    <nav class="menu">
+        <div class="logo">
+            <a href="index.html"><img class="img_logo" src="img/logo.png" alt=""></a>
+        </div>
+        <div class="itens_menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li class="esp"><a href="loja.html">Loja</a></li>
+                <li id="alternar-contraste"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" class="bi bi-circle-half" viewBox="0 0 16 16" title="Ainda em desenvolvimento">
+                  <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"/>
+              </svg></a></li>
+              <li  class="Branco" id="aumentar-texto"><a>A+</a></li>
+              <li class="esp Branco" id="diminuir-texto" >A-</li>
+                <li><a href="carrinho.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-cart2" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                </svg></a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg></a></li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+  <div class="vazio">
+
+  </div>
+  <div class="container receitas">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Item</th>
+          <th scope="col">Descrição</th>
+          <th scope="col">Dificuldade</th>
+          <th scope="col">Rende</th>
+          <th scope="col">Tempo</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+                <th scope="row">1</th>
+                <td><img src="img/receita1.png" width="130"></td>
+                <td>Iorgute vegano</td>
+                <td id="price">Fácil</td>
+                <td id="price">4 pessoas</td>
+                <td id="quantity">5 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">2</th>
+                <td><img src="img/receita2.jpg" width="130" alt=""></td>
+                <td>Torta de cacau e abacate</td>
+                <td>Fácil</td>
+                <td>12 pessoas</td>
+                <td>40 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">3</th>
+                <td><img src="img/receita3.png" width="130" alt=""></td>
+                <td>Bolo de banana fit</td>
+                <td>Médio</td>
+                <td>6-8 porções</td>
+                <td>40 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">4</th>
+                <td><img src="img/receita4.png" width="130" alt=""></td>
+                <td>Brownie fit de micro-ondas</td>
+                <td>Fácil</td>
+                <td>1 porção</td>
+                <td>15 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">5</th>
+                <td><img src="img/receita5.png" width="130" alt=""></td>
+                <td>Brownie proteico de batata doce</td>
+                <td>Médio</td>
+                <td>6-8 porções</td>
+                <td>45 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">6</th>
+                <td><img src="img/receita6.png" width="130" alt=""></td>
+                <td>Mousse de chocolate fit</td>
+                <td>Fácil</td>
+                <td>2 porções</td>
+                <td>20 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">7</th>
+                <td><img src="img/receita7.jpg" width="130" alt=""></td>
+                <td>Sorvete de amora sem açúcar</td>
+                <td>Fácil</td>
+                <td>1 porção</td>
+                <td>10 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">8</th>
+                <td><img src="img/receita8.png" width="130" alt=""></td>
+                <td>Torta de maçã fit</td>
+                <td>Difícil</td>
+                <td>5 porções</td>
+                <td>50 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">9</th>
+                <td><img src="img/receita9.jpg" width="130" alt=""></td>
+                <td>Torta banoffe low carb</td>
+                <td>Difícil</td>
+                <td>15 porções</td>
+                <td>50 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">10</th>
+                <td><img src="img/receita10.jpeg" width="130" alt=""></td>
+                <td>Torta de maçã low carb de frigideira</td>
+                <td>Fácil</td>
+                <td>1 porção</td>
+                <td>30 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">11</th>
+                <td><img src="img/receita11.jpg" width="130" alt=""></td>
+                <td>Cheesecake de amora fit</td>
+                <td>Médio</td>
+                <td>5 porções</td>
+                <td>35 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+        <tr>
+                <th scope="row">12</th>
+                <td><img src="img/receita12.jpeg" width="130" alt=""></td>
+                <td>Pudim de chocolate diet</td>
+                <td>Fácil</td>
+                <td>10 pedaços</td>
+                <td>30 minutos</td>
+                <td>
+                    <button type="button" class="btn btn-primary">Acessar</button>
+                </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="centro">Em breve mais receitas!</p>
+  </div>
+  <footer>
+    <div class="logo-footer">
+      <img src="img/Logo Projeto Doce IW II.png" alt="Logo">
+    </div>
+    <div class="links-footer">
+      <h3>Links usuais</h3>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="receitas.html">Receitas</a></li>
+        <li><a href="loja.html">Loja</a></li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h3>Contato</h3>
+      <a href="mailto:hsweets2@gmail.com">hsweets2@gmail.com</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#whatsapp">WhatsApp</a>
+    </div>
+    <div class="location">
+      <h3>Localização</h3>
+      <p>Ribeirão Pires, SP</p>
+    </div>
+    <div class="copyright">
+      © 2024 Todos os direitos reservados.
+    </div>
+</footer>
+
+<!-- A+ E A- -->
+<script type="text/javascript">
+  window.onload = function() 
+  {
+      //Seleciona o elemento <body> para que possamos alterar seu estilo.
+      var corpoDaPagina = document.querySelector('body');
+      var aumentarTexto = document.getElementById('aumentar-texto');
+      var diminuirTexto = document.getElementById('diminuir-texto');
+      
+      // O padrão de tamanho equivale a 100% do valor definido no style
+      var fontSize = 100;
+      
+      // Valor percentual de 10% que irá aumentar ou diminuir do padrão da fonte
+      var qntAumentarDiminuir = 10;
+
+      // Evento de click para aumentar a fonte
+      aumentarTexto.addEventListener
+      ('click', function(event) 
+          {
+          fontSize = fontSize + qntAumentarDiminuir;
+          corpoDaPagina.style.fontSize = fontSize + '%';
+          }
+      );
+
+      // Evento de click para diminuir a fonte
+      diminuirTexto.addEventListener
+      ('click', function(event) 
+          {
+          fontSize = fontSize - qntAumentarDiminuir;
+          corpoDaPagina.style.fontSize = fontSize + '%';
+          }
+      );
+  }
+</script>
+
+<!--ALTO CONTRASTE-->
+<script>
+  document.getElementById('alternar-contraste').addEventListener
+  ('click', function() 
+      {
+      document.body.classList.toggle('alto-contraste');
+      }
+  );
+</script>
+</body>
+</html>
